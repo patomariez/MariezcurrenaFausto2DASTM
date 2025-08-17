@@ -1,0 +1,14 @@
+C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\obj\Debug\net8.0\Ejercicio01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\obj\Debug\net8.0\Ejercicio01.AssemblyInfoInputs.cache
+C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\obj\Debug\net8.0\Ejercicio01.AssemblyInfo.cs
+C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\obj\Debug\net8.0\Ejercicio01.csproj.CoreCompileInputs.cache
+C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\bin\Debug\net8.0\Ejercicio01.exe
+C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\bin\Debug\net8.0\Ejercicio01.deps.json
+C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\bin\Debug\net8.0\Ejercicio01.runtimeconfig.json
+C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\bin\Debug\net8.0\Ejercicio01.dll
+C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\bin\Debug\net8.0\Ejercicio01.pdb
+C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\obj\Debug\net8.0\Ejercicio01.dll
+C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\obj\Debug\net8.0\refint\Ejercicio01.dll
+C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\obj\Debug\net8.0\Ejercicio01.pdb
+C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\obj\Debug\net8.0\Ejercicio01.genruntimeconfig.cache
+C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\obj\Debug\net8.0\ref\Ejercicio01.dll
