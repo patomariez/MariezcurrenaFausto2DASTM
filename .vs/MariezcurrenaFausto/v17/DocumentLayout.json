@@ -3,40 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|solutionrelative:ejercicio01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|solutionrelative:ejercicio02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio01\\cuentacorriente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|solutionrelative:ejercicio01\\cuentacorriente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio02\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|solutionrelative:ejercicio02\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio01\\repositoriocuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|solutionrelative:ejercicio01\\repositoriocuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio02\\repositorioclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|solutionrelative:ejercicio02\\repositorioclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio01\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|solutionrelative:ejercicio01\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio02\\canal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|solutionrelative:ejercicio02\\canal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio01\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|solutionrelative:ejercicio01\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio01\\repositorioclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|solutionrelative:ejercicio01\\repositorioclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio02\\serie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|solutionrelative:ejercicio02\\serie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio01\\excepcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|solutionrelative:ejercicio01\\excepcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio02\\paquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|solutionrelative:ejercicio02\\paquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio01\\cajaahorro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|solutionrelative:ejercicio01\\cajaahorro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio02\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|solutionrelative:ejercicio02\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio01\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|solutionrelative:ejercicio01\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio02\\repositoriocanales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|solutionrelative:ejercicio02\\repositoriocanales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio02\\paquetesilver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|solutionrelative:ejercicio02\\paquetesilver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio02\\paquetepremium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|solutionrelative:ejercicio02\\paquetepremium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio02\\repositoriopaquetes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|solutionrelative:ejercicio02\\repositoriopaquetes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio02\\repositorioseries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|solutionrelative:ejercicio02\\repositorioseries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio02\\irepositorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0B223F-6248-49E5-B915-E279F00B4A56}|Ejercicio02\\Ejercicio02.csproj|solutionrelative:ejercicio02\\irepositorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,119 +90,184 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cuenta.cs",
-              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\Cuenta.cs",
-              "RelativeDocumentMoniker": "Ejercicio01\\Cuenta.cs",
-              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\Cuenta.cs",
-              "RelativeToolTip": "Ejercicio01\\Cuenta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T02:21:02.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Excepcion.cs",
-              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\Excepcion.cs",
-              "RelativeDocumentMoniker": "Ejercicio01\\Excepcion.cs",
-              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\Excepcion.cs",
-              "RelativeToolTip": "Ejercicio01\\Excepcion.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBYAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T03:22:31.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Banco.cs",
               "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\Banco.cs",
               "RelativeDocumentMoniker": "Ejercicio01\\Banco.cs",
               "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\Banco.cs",
               "RelativeToolTip": "Ejercicio01\\Banco.cs",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAQwL4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBUAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T03:05:16.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RepositorioClientes.cs",
-              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\RepositorioClientes.cs",
-              "RelativeDocumentMoniker": "Ejercicio01\\RepositorioClientes.cs",
-              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\RepositorioClientes.cs",
-              "RelativeToolTip": "Ejercicio01\\RepositorioClientes.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAkwCgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T02:54:52.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RepositorioCuentas.cs",
-              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\RepositorioCuentas.cs",
-              "RelativeDocumentMoniker": "Ejercicio01\\RepositorioCuentas.cs",
-              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\RepositorioCuentas.cs",
-              "RelativeToolTip": "Ejercicio01\\RepositorioCuentas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T02:50:22.401Z",
+              "WhenOpened": "2025-08-18T22:24:58.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CuentaCorriente.cs",
-              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\CuentaCorriente.cs",
-              "RelativeDocumentMoniker": "Ejercicio01\\CuentaCorriente.cs",
-              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\CuentaCorriente.cs",
-              "RelativeToolTip": "Ejercicio01\\CuentaCorriente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Title": "Empresa.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\Empresa.cs",
+              "RelativeDocumentMoniker": "Ejercicio02\\Empresa.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\Empresa.cs",
+              "RelativeToolTip": "Ejercicio02\\Empresa.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwHAAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T02:22:58.234Z",
+              "WhenOpened": "2025-08-18T21:22:41.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CajaAhorro.cs",
-              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\CajaAhorro.cs",
-              "RelativeDocumentMoniker": "Ejercicio01\\CajaAhorro.cs",
-              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\CajaAhorro.cs",
-              "RelativeToolTip": "Ejercicio01\\CajaAhorro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "RepositorioClientes.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\RepositorioClientes.cs",
+              "RelativeDocumentMoniker": "Ejercicio02\\RepositorioClientes.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\RepositorioClientes.cs",
+              "RelativeToolTip": "Ejercicio02\\RepositorioClientes.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwEcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T02:22:23.136Z",
+              "WhenOpened": "2025-08-18T21:18:57.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RepositorioSeries.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\RepositorioSeries.cs",
+              "RelativeDocumentMoniker": "Ejercicio02\\RepositorioSeries.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\RepositorioSeries.cs",
+              "RelativeToolTip": "Ejercicio02\\RepositorioSeries.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwEMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T21:16:18.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\Cliente.cs",
-              "RelativeDocumentMoniker": "Ejercicio01\\Cliente.cs",
-              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\Cliente.cs",
-              "RelativeToolTip": "Ejercicio01\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Title": "RepositorioCanales.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\RepositorioCanales.cs",
+              "RelativeDocumentMoniker": "Ejercicio02\\RepositorioCanales.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\RepositorioCanales.cs",
+              "RelativeToolTip": "Ejercicio02\\RepositorioCanales.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowEUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T02:18:33.276Z",
+              "WhenOpened": "2025-08-18T21:13:05.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RepositorioPaquetes.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\RepositorioPaquetes.cs",
+              "RelativeDocumentMoniker": "Ejercicio02\\RepositorioPaquetes.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\RepositorioPaquetes.cs",
+              "RelativeToolTip": "Ejercicio02\\RepositorioPaquetes.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowEcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T21:02:32.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaqueteSilver.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\PaqueteSilver.cs",
+              "RelativeDocumentMoniker": "Ejercicio02\\PaqueteSilver.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\PaqueteSilver.cs",
+              "RelativeToolTip": "Ejercicio02\\PaqueteSilver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T20:58:46.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PaquetePremium.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\PaquetePremium.cs",
+              "RelativeDocumentMoniker": "Ejercicio02\\PaquetePremium.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\PaquetePremium.cs",
+              "RelativeToolTip": "Ejercicio02\\PaquetePremium.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T20:56:56.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Paquete.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\Paquete.cs",
+              "RelativeDocumentMoniker": "Ejercicio02\\Paquete.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\Paquete.cs",
+              "RelativeToolTip": "Ejercicio02\\Paquete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T20:52:41.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\Cliente.cs",
+              "RelativeDocumentMoniker": "Ejercicio02\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\Cliente.cs",
+              "RelativeToolTip": "Ejercicio02\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T20:47:55.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\Program.cs",
-              "RelativeDocumentMoniker": "Ejercicio01\\Program.cs",
-              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\Program.cs",
-              "RelativeToolTip": "Ejercicio01\\Program.cs",
-              "ViewState": "AgIAAAkBAAAAAAAAAADwvxQBAAAzAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio02\\Program.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\Program.cs",
+              "RelativeToolTip": "Ejercicio02\\Program.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAADwv98AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T02:16:48.822Z",
+              "WhenOpened": "2025-08-18T20:41:41.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IRepositorios.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\IRepositorios.cs",
+              "RelativeDocumentMoniker": "Ejercicio02\\IRepositorios.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\IRepositorios.cs",
+              "RelativeToolTip": "Ejercicio02\\IRepositorios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T21:02:52.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Serie.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\Serie.cs",
+              "RelativeDocumentMoniker": "Ejercicio02\\Serie.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\Serie.cs",
+              "RelativeToolTip": "Ejercicio02\\Serie.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T20:43:18.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Canal.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\Canal.cs",
+              "RelativeDocumentMoniker": "Ejercicio02\\Canal.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio02\\Canal.cs",
+              "RelativeToolTip": "Ejercicio02\\Canal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T20:42:29.143Z",
               "EditorCaption": ""
             }
           ]
