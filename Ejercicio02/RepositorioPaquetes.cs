@@ -25,7 +25,7 @@ namespace Ejercicio02
                 if (paqueteAgregado == null)
                 {
                     listaPaquetes.Add(paquete);
-                    Console.WriteLine($"Paquete {paquete.Tipo} agregado correctamente");
+                    Console.WriteLine($"Paquete {paquete.Tipo()} agregado correctamente");
                 }
                 else
                 {
@@ -47,7 +47,7 @@ namespace Ejercicio02
             var paqueteRepetido = listaPaquetes.FirstOrDefault(p => p.Id == paquete.Id);
             if (paqueteRepetido != null)
             {
-                paqueteRepetido = paquete;
+                paqueteRepetido.Canales = paquete.Canales;
                 Console.WriteLine($"Paquete {paquete.Id} modificado correctamente");
             }
             else
@@ -70,7 +70,7 @@ namespace Ejercicio02
         {
             var paqueteAEliminar = Buscar(id);
             listaPaquetes.Remove(paqueteAEliminar);
-            Console.WriteLine($"Paquete {paqueteAEliminar.Tipo} eliminado correctamente");
+            Console.WriteLine($"Paquete {paqueteAEliminar.Tipo()} eliminado correctamente");
         }
     }
 }

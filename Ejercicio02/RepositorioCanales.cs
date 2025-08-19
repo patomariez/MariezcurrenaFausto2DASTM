@@ -47,7 +47,8 @@ namespace Ejercicio02
             var canalRepetido = listaCanales.FirstOrDefault(c => c.Id == canal.Id);
             if (canal != null)
             {
-                canalRepetido = canal;
+                canalRepetido.Nombre = canal.Nombre;
+                canalRepetido.Series = canal.Series;
                 Console.WriteLine($"Canal {canal.Id} modificado correctamente");
             }
             else

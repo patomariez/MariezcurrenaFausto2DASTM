@@ -190,7 +190,7 @@ namespace Ejercicio01
                     throw new DatosInvalidosException("Cuenta no encontrada");
 
                 cuenta.Depositar(monto);
-                Console.WriteLine($"Depósito de ${monto} realizado exitosamente.");
+                Console.WriteLine($"Depósito de ${monto} realizado exitosamente");
             }
             catch (DatosInvalidosException ex)
             {
@@ -212,7 +212,7 @@ namespace Ejercicio01
                     throw new DatosInvalidosException("Cuenta no encontrada");
 
                 cuenta.Retirar(monto);
-                Console.WriteLine($"Retiro de {monto} realizado exitosamente.");
+                Console.WriteLine($"Retiro de ${monto} realizado exitosamente");
             }
             catch (DatosInvalidosException ex)
             {

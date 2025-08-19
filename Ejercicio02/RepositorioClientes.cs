@@ -47,7 +47,9 @@ namespace Ejercicio02
             var clienteRepetido = listaClientes.FirstOrDefault(c => c.Dni == cliente.Dni);
             if (clienteRepetido != null)
             {
-                clienteRepetido = cliente;
+                clienteRepetido.Nombre = cliente.Nombre;
+                clienteRepetido.Apellido = cliente.Apellido;
+                clienteRepetido.FechaNacimiento = cliente.FechaNacimiento;
                 Console.WriteLine($"Cliente {cliente.Dni} modificado correctamente");
             }
             else

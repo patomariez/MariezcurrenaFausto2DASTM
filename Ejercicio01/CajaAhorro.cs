@@ -18,7 +18,7 @@ namespace Ejercicio01
             if (monto <= 0)
                 throw new DatosInvalidosException("El monto a retirar debe ser mayor a cero");
 
-            if (monto > maxExtraccion)
+            if (monto > MaxExtraccion)
                 throw new MaximoExtraccionSuperadoException("El monto que desea retirar es superior al máximo permitido");
 
             if (monto > Saldo)

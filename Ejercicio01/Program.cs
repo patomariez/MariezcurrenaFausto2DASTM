@@ -156,12 +156,32 @@ namespace Ejercicio01
 
         static void ModificarCliente()
         {
+            Console.WriteLine("\n=== MODIFICAR CLIENTE ===");
+            Console.Write("DNI del cliente a modificar: ");
+            string dniCliente = Console.ReadLine();
 
+            Console.Write("Nuevo Nombre Completo: ");
+            string nombreCliente = Console.ReadLine();
+
+            Console.Write("Nuevo Teléfono: ");
+            string telefonoCliente = Console.ReadLine();
+
+            Console.Write("Nuevo Email: ");
+            string emailCliente = Console.ReadLine();
+
+            Console.Write("Nueva Fecha de Nacimiento (dd/MM/yyyy): ");
+            string fechaNacimiento = Console.ReadLine();
+
+            banco.ModificarCliente(dniCliente, nombreCliente, telefonoCliente, emailCliente, fechaNacimiento);
         }
 
         static void EliminarCliente()
         {
+            Console.WriteLine("\n=== ELIMINAR CLIENTE ===");
+            Console.Write("DNI del cliente: ");
+            string dniCliente = Console.ReadLine();
 
+            banco.EliminarCliente(dniCliente);
         }
 
         static void CrearCuentaCorriente()

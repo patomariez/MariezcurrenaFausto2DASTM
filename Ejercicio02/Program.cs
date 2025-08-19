@@ -9,7 +9,6 @@ namespace Ejercicio02
         static void Main(string[] args)
         {
             empresa = new Empresa();
-            Console.WriteLine("=== SISTEMA DE PAQUETES DE CABLE ===");
 
             bool continuar = true;
 
@@ -213,7 +212,7 @@ namespace Ejercicio02
                     if (canal != null)
                     {
                         canalesSeleccionados.Add(canal);
-                        Console.WriteLine($"Canal {canal.Nombre} agregado");
+                        Console.WriteLine($"Canal {canal.Nombre.ToString()} agregado");
                     }
                     else
                     {
@@ -284,7 +283,7 @@ namespace Ejercicio02
             string directorSerie = Console.ReadLine();
 
             Console.WriteLine("Géneros: " +
-                          "1. Accion," +
+                          "1. Accion,\r\n" +
                           "2. Comedia,\r\n            " +
                           "3. Romance,\r\n            " +
                           "4. Drama,\r\n            " +
@@ -335,7 +334,7 @@ namespace Ejercicio02
         static void ModificarCliente()
         {
             Console.WriteLine("\n=== MODIFICAR CLIENTE ===");
-            Console.Write("DNI del cliente: ");
+            Console.Write("DNI del cliente a modificar: ");
             string dniCliente = Console.ReadLine();
 
             Console.Write("Nuevo Nombre: ");
@@ -389,26 +388,26 @@ namespace Ejercicio02
             Console.Write("ID de la serie a modificar: ");
             string idSerie = Console.ReadLine();
 
-            Console.Write("Nombre: ");
+            Console.Write("Nuevo Nombre: ");
             string nombreSerie = Console.ReadLine();
 
-            Console.Write("Cantidad de Temporadas: ");
+            Console.Write("Nueva Cantidad de Temporadas: ");
             string cantTemporadasSerie = Console.ReadLine();
 
-            Console.Write("Cantidad de Episodios: ");
+            Console.Write("Nueva Cantidad de Episodios: ");
             string cantEpisodiosSerie = Console.ReadLine();
 
-            Console.Write("Duración: ");
+            Console.Write("Nueva Duración: ");
             string duracionSerie = Console.ReadLine();
 
-            Console.Write("Ranking (1 - 5): ");
+            Console.Write("Nuevo Ranking (1 - 5): ");
             string rankingSerie = Console.ReadLine();
 
-            Console.Write("Director: ");
+            Console.Write("Nuevo Director: ");
             string directorSerie = Console.ReadLine();
 
             Console.WriteLine("Géneros: " +
-                          "1. Accion," +
+                          "1. Accion,\r\n" +
                           "2. Comedia,\r\n            " +
                           "3. Romance,\r\n            " +
                           "4. Drama,\r\n            " +
@@ -426,7 +425,7 @@ namespace Ejercicio02
             Console.Write("ID del canal a modificar: ");
             string idCanal = Console.ReadLine();
 
-            Console.Write("Nombre del canal: ");
+            Console.Write("Nuevo Nombre del canal: ");
             string nombreCanal = Console.ReadLine();
 
             List<Serie> seriesSeleccionadas = new List<Serie>();
@@ -506,7 +505,7 @@ namespace Ejercicio02
 
             foreach (var paquete in paquetes)
             {
-                Console.WriteLine($"Paquete ID {paquete.Id} - Tipo: {paquete.Tipo} - Precio: {paquete.CalcularPrecio().ToString()}" +
+                Console.WriteLine($"Paquete ID {paquete.Id} - Tipo: {paquete.Tipo()} - Precio: {paquete.CalcularPrecio().ToString()}" +
                     $"  Canales incluidos: ");
 
                 foreach (var canal in paquete.Canales)

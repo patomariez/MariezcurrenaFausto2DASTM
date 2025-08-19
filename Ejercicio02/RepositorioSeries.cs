@@ -47,7 +47,13 @@ namespace Ejercicio02
             var serieRepetida = listaSeries.FirstOrDefault(s => s.Id == serie.Id);
             if (serieRepetida != null)
             {
-                serieRepetida = serie;
+                serieRepetida.Nombre = serie.Nombre;
+                serieRepetida.CantidadTemporadas = serie.CantidadTemporadas;
+                serieRepetida.Episodios = serie.Episodios;
+                serieRepetida.Duracion = serie.Duracion;
+                serieRepetida.Ranking = serie.Ranking;
+                serieRepetida.TipoGenero = serie.TipoGenero;
+                serieRepetida.Director = serie.Director;
                 Console.WriteLine($"Serie {serie.Id} modificada correctamente");
             }
             else
