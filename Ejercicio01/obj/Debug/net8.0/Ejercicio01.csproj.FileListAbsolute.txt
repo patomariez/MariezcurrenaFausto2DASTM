@@ -12,3 +12,4 @@ C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\obj\Debug\net8.0\re
 C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\obj\Debug\net8.0\Ejercicio01.pdb
 C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\obj\Debug\net8.0\Ejercicio01.genruntimeconfig.cache
 C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\obj\Debug\net8.0\ref\Ejercicio01.dll
+C:\Users\Fausto\source\repos\MariezcurrenaFausto\Ejercicio01\obj\Debug\net8.0\Ejercicio01.sourcelink.json

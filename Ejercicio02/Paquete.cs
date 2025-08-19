@@ -11,10 +11,12 @@ namespace Ejercicio02
         private int id;
         private List<Canal> canales;
         private decimal abono;
+        private int contadorVentas;
 
         public int Id { get; set; }
         public List<Canal> Canales { get; set; }
         public decimal Abono = 5000;
+        public int ContadorVentas = 0;
 
         public abstract string Tipo();
 

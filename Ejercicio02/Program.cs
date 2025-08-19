@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using static Ejercicio02.Excepcion;
 
 namespace Ejercicio02
 {
@@ -50,7 +51,7 @@ namespace Ejercicio02
             Console.WriteLine("15. Listar Clientes");
             Console.WriteLine("16. Listar Series");
             Console.WriteLine("17. Listar Canales");
-            Console.WriteLine("18. Mostrar Paquete Por Cliente");
+            Console.WriteLine("18. Contratar Paquete (cliente)");
             Console.WriteLine("19. Mostrar Total Recaudado Mensualmente");
             Console.WriteLine("20. Mostrar Paquete Más Vendido");
             Console.WriteLine("21. Mostrar Series de Ranking Mayor a 3.5");
@@ -129,7 +130,7 @@ namespace Ejercicio02
                         ListarCanales();
                         break;
                     case 18:
-                        MostrarPaquetePorCliente();
+                        ContratarPaquete();
                         break;
                     case 19:
                         MostrarTotalRecaudadoMensualmente();
@@ -148,17 +149,21 @@ namespace Ejercicio02
                         break;
                 }
             }
-            catch (FondosInsuficientesException ex)
+            catch (ClienteNoRegistradoException ex)
             {
-                Console.WriteLine($"Error: {ex.Message}");
+                Console.WriteLine($"Error cliente no registrado: {ex.Message}");
             }
-            catch (LimiteRetirosExcedidoException ex)
+            catch (IdRepetidoException ex)
             {
-                Console.WriteLine($"Error: {ex.Message}");
+                Console.WriteLine($"Error ID repetido: {ex.Message}");
             }
             catch (DatosInvalidosException ex)
             {
-                Console.WriteLine($"Error: {ex.Message}");
+                Console.WriteLine($"Error de formato: {ex.Message}");
+            }
+            catch (ObjetoNoEncontradoException ex)
+            {
+                Console.WriteLine($"Error objeto no encontrado: {ex.Message}");
             }
             catch (Exception ex)
             {
@@ -293,7 +298,6 @@ namespace Ejercicio02
 
         static void AgregarCanal()
         {
-            //el id no puede ser 0
             Console.WriteLine("\n=== AGREGAR CANAL ===");
             Console.Write("ID del canal: ");
             string idCanal = Console.ReadLine();
@@ -315,7 +319,7 @@ namespace Ejercicio02
                     if (serie != null)
                     {
                         seriesSeleccionadas.Add(serie);
-                        Console.WriteLine($"Serie {serie.Nombre} agregado");
+                        Console.WriteLine($"Serie {serie.Nombre} agregada");
                     }
                     else
                     {
@@ -330,53 +334,199 @@ namespace Ejercicio02
 
         static void ModificarCliente()
         {
+            Console.WriteLine("\n=== MODIFICAR CLIENTE ===");
+            Console.Write("DNI del cliente: ");
+            string dniCliente = Console.ReadLine();
 
+            Console.Write("Nuevo Nombre: ");
+            string nombreCliente = Console.ReadLine();
+
+            Console.Write("Nuevo Apellido: ");
+            string apellidoCliente = Console.ReadLine();
+
+            Console.Write("Nueva Fecha de Nacimiento (dd/MM/yyyy): ");
+            string fechaNacimiento = Console.ReadLine();
+
+            empresa.ModificarCliente(dniCliente, nombreCliente, apellidoCliente, fechaNacimiento);
         }
 
         static void ModificarPaquete()
         {
+            Console.WriteLine("\n=== MODIFICAR PAQUETE ===");
+            Console.Write("ID del paquete a modificar: ");
+            string idPaquete = Console.ReadLine();
 
+            List<Canal> canalesSeleccionados = new List<Canal>();
+            int idCanal;
+
+            do
+            {
+                Console.Write("Indique el Id del canal nuevo (0 para salir): ");
+                idCanal = int.Parse(Console.ReadLine());
+
+                if (idCanal != 0)
+                {
+                    var canal = empresa.BuscarCanalPorId(idCanal);
+                    if (canal != null)
+                    {
+                        canalesSeleccionados.Add(canal);
+                        Console.WriteLine($"Canal {canal.Nombre} agregado");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Canal no encontrado");
+                    }
+                }
+
+            } while (idCanal != 0);
+
+            empresa.ModificarPaquete(idPaquete, canalesSeleccionados);
         }
 
         static void ModificarSerie()
         {
+            Console.WriteLine("\n=== MODIFICAR SERIE ===");
+            Console.Write("ID de la serie a modificar: ");
+            string idSerie = Console.ReadLine();
 
+            Console.Write("Nombre: ");
+            string nombreSerie = Console.ReadLine();
+
+            Console.Write("Cantidad de Temporadas: ");
+            string cantTemporadasSerie = Console.ReadLine();
+
+            Console.Write("Cantidad de Episodios: ");
+            string cantEpisodiosSerie = Console.ReadLine();
+
+            Console.Write("Duración: ");
+            string duracionSerie = Console.ReadLine();
+
+            Console.Write("Ranking (1 - 5): ");
+            string rankingSerie = Console.ReadLine();
+
+            Console.Write("Director: ");
+            string directorSerie = Console.ReadLine();
+
+            Console.WriteLine("Géneros: " +
+                          "1. Accion," +
+                          "2. Comedia,\r\n            " +
+                          "3. Romance,\r\n            " +
+                          "4. Drama,\r\n            " +
+                          "5. Terror,\r\n            " +
+                          "6. Ciencia Ficcion");
+            Console.Write("Seleccione el id del género: ");
+            string idGenero = Console.ReadLine();
+
+            empresa.ModificarSerie(idSerie, nombreSerie, cantTemporadasSerie, cantEpisodiosSerie, duracionSerie, rankingSerie, idGenero, directorSerie);
         }
 
         static void ModificarCanal()
         {
+            Console.WriteLine("\n=== MODIFICAR CANAL ===");
+            Console.Write("ID del canal a modificar: ");
+            string idCanal = Console.ReadLine();
 
+            Console.Write("Nombre del canal: ");
+            string nombreCanal = Console.ReadLine();
+
+            List<Serie> seriesSeleccionadas = new List<Serie>();
+            int idSerie;
+
+            do
+            {
+                Console.Write("Indique el Id de la serie nueva (0 para salir): ");
+                idSerie = int.Parse(Console.ReadLine());
+
+                if (idSerie != 0)
+                {
+                    var serie = empresa.BuscarSeriePorId(idSerie);
+                    if (serie != null)
+                    {
+                        seriesSeleccionadas.Add(serie);
+                        Console.WriteLine($"Serie {serie.Nombre} agregada");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Serie no encontrada");
+                    }
+                }
+
+            } while (idSerie != 0);
+
+            empresa.ModificarCanal(idCanal, nombreCanal, seriesSeleccionadas);
         }
 
         static void EliminarCliente()
         {
+            Console.WriteLine("\n=== ELIMINAR CLIENTE ===");
+            Console.Write("DNI del cliente: ");
+            string dniCliente = Console.ReadLine();
 
+            empresa.EliminarCliente(dniCliente);
         }
 
         static void EliminarPaquete()
         {
+            Console.WriteLine("\n=== ELIMINAR PAQUETE ===");
+            Console.Write("ID del paquete: ");
+            string idPaquete = Console.ReadLine();
 
+            empresa.EliminarPaquete(idPaquete);
         }
 
         static void EliminarSerie()
         {
+            Console.WriteLine("\n=== ELIMINAR SERIE ===");
+            Console.Write("ID de la serie: ");
+            string idSerie = Console.ReadLine();
 
+            empresa.EliminarSerie(idSerie);
         }
 
         static void EliminarCanal()
         {
+            Console.WriteLine("\n=== ELIMINAR CANAL ===");
+            Console.Write("ID del canal: ");
+            string idCanal = Console.ReadLine();
 
+            empresa.EliminarCanal(idCanal);
         }
 
         static void ListarPaquetes()
         {
+            Console.WriteLine("\n=== LISTAR PAQUETES ===");
 
+            var paquetes = empresa.ListarPaquetes();
+
+            if (paquetes.Count == 0)
+            {
+                Console.WriteLine("No hay paquetes registrados");
+                return;
+            }
+
+            foreach (var paquete in paquetes)
+            {
+                Console.WriteLine($"Paquete ID {paquete.Id} - Tipo: {paquete.Tipo} - Precio: {paquete.CalcularPrecio().ToString()}" +
+                    $"  Canales incluidos: ");
+
+                foreach (var canal in paquete.Canales)
+                {
+                    Console.WriteLine($"        Canal {canal.Id} - {canal.Nombre}" +
+                        $"          Series incluidas: ");
+
+                    foreach (var serie in canal.Series)
+                    {
+                        Console.WriteLine($"                Serie {serie.Id} - {serie.Nombre} - Temporadas: {serie.CantidadTemporadas} - Episodios: {serie.Episodios}");
+                    }
+                  
+                }
+            }
         }
 
         static void ListarClientes()
         {
             Console.WriteLine("\n=== LISTAR CLIENTES ===");
-            var clientes = banco.ObtenerTodosLosClientes();
+            var clientes = empresa.ListarClientes();
 
             if (clientes.Count == 0)
             {
@@ -387,42 +537,110 @@ namespace Ejercicio02
             foreach (var cliente in clientes)
             {
                 Console.WriteLine($"DNI: {cliente.Dni}");
-                Console.WriteLine($"Nombre completo: {cliente.NombreCompleto}");
-                Console.WriteLine($"Teléfono: {cliente.Telefono}");
-                Console.WriteLine($"Email: {cliente.Email}");
+                Console.WriteLine($"Nombre: {cliente.Nombre}");
+                Console.WriteLine($"Apellido: {cliente.Apellido}");
                 Console.WriteLine($"Fecha de nacimiento: {cliente.FechaNacimiento.ToShortDateString()}");
+
+                if (cliente.PaqueteContratado != null)
+                {
+                    Console.WriteLine($"Paquete Contratado: {cliente.PaqueteContratado.Tipo}");
+                }
+
                 Console.WriteLine("-----------------------------------------------");
             }
         }
 
         static void ListarSeries()
         {
+            Console.WriteLine("\n=== LISTAR SERIES ===");
+            var series = empresa.ListarSeries();
 
+            if (series.Count == 0)
+            {
+                Console.WriteLine("No hay series registradas");
+                return;
+            }
+
+            foreach (var serie in series)
+            {
+                Console.WriteLine($"ID: {serie.Id}");
+                Console.WriteLine($"Nombre: {serie.Nombre}");
+                Console.WriteLine($"Temporadas: {serie.CantidadTemporadas}");
+                Console.WriteLine($"Episodios: {serie.Episodios}");
+                Console.WriteLine($"Duración: {serie.Duracion}");
+                Console.WriteLine($"Ranking: {serie.Ranking}");
+                Console.WriteLine($"Director: {serie.Director}");
+                Console.WriteLine($"Género: {serie.TipoGenero}");
+                Console.WriteLine("-----------------------------------------------");
+            }
         }
 
         static void ListarCanales()
         {
+            Console.WriteLine("\n=== LISTAR CANALES ===");
+            var canales = empresa.ListarCanales();
 
+            if (canales.Count == 0)
+            {
+                Console.WriteLine("No hay canales registrados");
+                return;
+            }
+
+            foreach (var canal in canales)
+            {
+                Console.WriteLine($"ID: {canal.Id}");
+                Console.WriteLine($"Nombre: {canal.Nombre}");
+                Console.WriteLine($"Series Incluidas: ");
+
+                foreach (var serie in canal.Series)
+                {
+                    Console.WriteLine($"    Serie {serie.Id} - {serie.Nombre} - Temporadas: {serie.CantidadTemporadas} - Episodios: {serie.Episodios}");
+                }
+                Console.WriteLine("-----------------------------------------------");
+            }
         }
 
-        static void MostrarPaquetePorCliente()
+        static void ContratarPaquete()
         {
+            Console.WriteLine("\n=== CONTRATAR PAQUETE ===");
+            Console.Write("DNI del cliente: ");
+            string dniCliente = Console.ReadLine();
 
+            Console.Write("ID del paquete a contratar: ");
+            string idPaquete = Console.ReadLine();
+
+            empresa.ContratarPaquete(dniCliente, idPaquete);
         }
 
         static void MostrarTotalRecaudadoMensualmente()
         {
-
+            Console.WriteLine("\n=== TOTAL RECAUDADO MENSUALMENTE ===");
+            empresa.MostrarTotalRecaudadoPorMes();
         }
 
         static void MostrarPaqueteMasVendido()
         {
-
+            Console.WriteLine("\n=== PAQUETE MAS VENDIDO ===");
+            empresa.MostrarPaqueteMasVendido();
         }
 
         static void MostrarSeriesRankingMayor()
         {
+            Console.WriteLine("\n=== SERIES CON RANKING MAYOR A 3.5 ===");
+            var seriesRankingMayor = empresa.MostrarSeriesRankingMayor();
 
+            foreach (var serie in seriesRankingMayor)
+            {
+                Console.WriteLine($"ID: {serie.Id}");
+                Console.WriteLine($"Nombre: {serie.Nombre}");
+                Console.WriteLine($"Serie: {serie.CantidadTemporadas}");
+                Console.WriteLine($"Episodios: {serie.Episodios}");
+                Console.WriteLine($"Duración: {serie.Duracion}");
+                Console.WriteLine($"Ranking: {serie.Ranking}");
+                Console.WriteLine($"Director: {serie.Director}");
+                Console.WriteLine($"Género: {serie.TipoGenero}");
+                Console.WriteLine("-----------------------------------------------");
+            }
         }
 
     }
