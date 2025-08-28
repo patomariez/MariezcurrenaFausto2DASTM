@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\ejercicio01\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94D5C183-8646-4BA2-BF28-AA0A0D3D7A85}|Ejercicio01\\Ejercicio01.csproj|solutionrelative:ejercicio01\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\tpn1 crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|solutionrelative:tpn1 crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\tpn1 crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|solutionrelative:tpn1 crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\tpn1 crud\\trabajosdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|solutionrelative:tpn1 crud\\trabajosdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\tpn1 crud\\formnuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|solutionrelative:tpn1 crud\\formnuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\tpn1 crud\\formnuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|solutionrelative:tpn1 crud\\formnuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\tpn1 crud\\trabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|solutionrelative:tpn1 crud\\trabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Banco.cs",
-              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\Banco.cs",
-              "RelativeDocumentMoniker": "Ejercicio01\\Banco.cs",
-              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\Ejercicio01\\Banco.cs",
-              "RelativeToolTip": "Ejercicio01\\Banco.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwMwAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:44:17.58Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -48,6 +55,82 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormNuevo.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\FormNuevo.cs",
+              "RelativeDocumentMoniker": "TPN1 CRUD\\FormNuevo.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\FormNuevo.cs",
+              "RelativeToolTip": "TPN1 CRUD\\FormNuevo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwC8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T01:28:20.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormNuevo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\FormNuevo.cs",
+              "RelativeDocumentMoniker": "TPN1 CRUD\\FormNuevo.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\FormNuevo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TPN1 CRUD\\FormNuevo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T01:27:48.077Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Trabajo.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\Trabajo.cs",
+              "RelativeDocumentMoniker": "TPN1 CRUD\\Trabajo.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\Trabajo.cs",
+              "RelativeToolTip": "TPN1 CRUD\\Trabajo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T01:07:39.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TrabajosDB.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\TrabajosDB.cs",
+              "RelativeDocumentMoniker": "TPN1 CRUD\\TrabajosDB.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\TrabajosDB.cs",
+              "RelativeToolTip": "TPN1 CRUD\\TrabajosDB.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwJcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T00:50:11.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\Form1.cs",
+              "RelativeDocumentMoniker": "TPN1 CRUD\\Form1.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\Form1.cs",
+              "RelativeToolTip": "TPN1 CRUD\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T00:49:38.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\Form1.cs",
+              "RelativeDocumentMoniker": "TPN1 CRUD\\Form1.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TPN1 CRUD\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T00:49:09.938Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
