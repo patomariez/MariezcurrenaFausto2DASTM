@@ -88,7 +88,7 @@
             Controls.Add(lblProfesion);
             Controls.Add(lblNombre);
             Name = "FormNuevo";
-            Text = "FormNuevo";
+            Text = "Gestionar Trabajador";
             ResumeLayout(false);
             PerformLayout();
         }

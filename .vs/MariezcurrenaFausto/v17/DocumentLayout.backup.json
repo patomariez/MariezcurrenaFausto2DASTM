@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\tpn1 crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|solutionrelative:tpn1 crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\tpn1 crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|solutionrelative:tpn1 crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\tpn1 crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|solutionrelative:tpn1 crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\tpn1 crud\\trabajadoresdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|solutionrelative:tpn1 crud\\trabajadoresdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\tpn1 crud\\trabajosdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|solutionrelative:tpn1 crud\\trabajosdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\tpn1 crud\\trabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|solutionrelative:tpn1 crud\\trabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\tpn1 crud\\formnuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|solutionrelative:tpn1 crud\\formnuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\tpn1 crud\\formnuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|solutionrelative:tpn1 crud\\formnuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\tpn1 crud\\formnuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|solutionrelative:tpn1 crud\\formnuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\tpn1 crud\\trabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|solutionrelative:tpn1 crud\\trabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|c:\\users\\fausto\\source\\repos\\mariezcurrenafausto\\tpn1 crud\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD0551B-E25F-449A-BEC5-7FA674A1BDD0}|TPN1 CRUD\\TPN1 CRUD.csproj|solutionrelative:tpn1 crud\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +62,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "TPN1 CRUD\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\Form1.Designer.cs",
+              "RelativeToolTip": "TPN1 CRUD\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T03:40:34.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FormNuevo.cs",
               "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\FormNuevo.cs",
               "RelativeDocumentMoniker": "TPN1 CRUD\\FormNuevo.cs",
@@ -83,13 +100,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Trabajo.cs",
-              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\Trabajo.cs",
-              "RelativeDocumentMoniker": "TPN1 CRUD\\Trabajo.cs",
-              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\Trabajo.cs",
-              "RelativeToolTip": "TPN1 CRUD\\Trabajo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Trabajador.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\Trabajador.cs",
+              "RelativeDocumentMoniker": "TPN1 CRUD\\Trabajador.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\Trabajador.cs",
+              "RelativeToolTip": "TPN1 CRUD\\Trabajador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T01:07:39.262Z",
               "EditorCaption": ""
@@ -97,32 +114,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TrabajosDB.cs",
-              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\TrabajosDB.cs",
-              "RelativeDocumentMoniker": "TPN1 CRUD\\TrabajosDB.cs",
-              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\TrabajosDB.cs",
-              "RelativeToolTip": "TPN1 CRUD\\TrabajosDB.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwJcAAABIAAAAAAAAAA==",
+              "Title": "TrabajadoresDB.cs",
+              "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\TrabajadoresDB.cs",
+              "RelativeDocumentMoniker": "TPN1 CRUD\\TrabajadoresDB.cs",
+              "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\TrabajadoresDB.cs",
+              "RelativeToolTip": "TPN1 CRUD\\TrabajadoresDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T00:50:11.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\Form1.cs",
               "RelativeDocumentMoniker": "TPN1 CRUD\\Form1.cs",
               "ToolTip": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\Form1.cs",
               "RelativeToolTip": "TPN1 CRUD\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T00:49:38.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Fausto\\source\\repos\\MariezcurrenaFausto\\TPN1 CRUD\\Form1.cs",
               "RelativeDocumentMoniker": "TPN1 CRUD\\Form1.cs",

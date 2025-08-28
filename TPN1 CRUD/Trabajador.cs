@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TPN1_CRUD
 {
-    public class Trabajo
+    public class Trabajador
     {
         private int id;
         private string nombre;

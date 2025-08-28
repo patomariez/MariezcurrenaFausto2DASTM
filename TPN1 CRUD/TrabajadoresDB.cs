@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 
 namespace TPN1_CRUD
 {
-    public class TrabajosDB
+    public class TrabajadoresDB
     {
         private string conexionString = "Data Source=DESKTOP-7VVF8ST\\SQLEXPRESS;Initial Catalog=CrudTP02;Integrated Security=True";
 
@@ -26,9 +26,9 @@ namespace TPN1_CRUD
             return true;
         }
 
-        public List<Trabajo> Obtener()
+        public List<Trabajador> Obtener()
         {
-            List<Trabajo> trabajos = new List<Trabajo>();
+            List<Trabajador> trabajadores = new List<Trabajador>();
 
             string consulta = "select ID,Nombre,Profesion from Trabajadores";
 
@@ -43,12 +43,12 @@ namespace TPN1_CRUD
 
                     while (reader.Read())
                     {
-                        Trabajo trabajo = new Trabajo();
-                        trabajo.Id = reader.GetInt32(0);
-                        trabajo.Nombre = reader.GetString(1);
-                        trabajo.Profesion = reader.GetString(2);
+                        Trabajador trabajador = new Trabajador();
+                        trabajador.Id = reader.GetInt32(0);
+                        trabajador.Nombre = reader.GetString(1);
+                        trabajador.Profesion = reader.GetString(2);
 
-                        trabajos.Add(trabajo);
+                        trabajadores.Add(trabajador);
                     }
 
                     reader.Close();
@@ -60,10 +60,10 @@ namespace TPN1_CRUD
                 }
             }
 
-            return trabajos;
+            return trabajadores;
         }
 
-        public Trabajo ObtenerId(int id)
+        public Trabajador ObtenerId(int id)
         {
             string consulta = "select ID,Nombre,Profesion from Trabajadores where ID=@ID";
 
@@ -79,15 +79,15 @@ namespace TPN1_CRUD
 
                     reader.Read();
 
-                    Trabajo trabajo = new Trabajo();
-                    trabajo.Id = reader.GetInt32(0);
-                    trabajo.Nombre = reader.GetString(1);
-                    trabajo.Profesion = reader.GetString(2);
+                    Trabajador trabajador = new Trabajador();
+                    trabajador.Id = reader.GetInt32(0);
+                    trabajador.Nombre = reader.GetString(1);
+                    trabajador.Profesion = reader.GetString(2);
 
                     reader.Close();
                     conexion.Close();
 
-                    return trabajo;
+                    return trabajador;
                 }
                 catch (Exception ex)
                 {

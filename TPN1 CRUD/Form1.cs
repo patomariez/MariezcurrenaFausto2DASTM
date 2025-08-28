@@ -14,8 +14,8 @@ namespace TPN1_CRUD
 
         private void LlenarGrilla()
         {
-            TrabajosDB trabajoBD = new TrabajosDB();
-            dgvTrabajos.DataSource = trabajoBD.Obtener();
+            TrabajadoresDB trabajadoresDB = new TrabajadoresDB();
+            dgvTrabajadores.DataSource = trabajadoresDB.Obtener();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -39,7 +39,7 @@ namespace TPN1_CRUD
 
         private int ObtenerId()
         {
-            return int.Parse(dgvTrabajos.Rows[dgvTrabajos.CurrentRow.Index].Cells[0].Value.ToString());
+            return int.Parse(dgvTrabajadores.Rows[dgvTrabajadores.CurrentRow.Index].Cells[0].Value.ToString());
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -50,8 +50,8 @@ namespace TPN1_CRUD
             {
                 if (id != null)
                 {
-                    TrabajosDB trabajoDB = new TrabajosDB();
-                    trabajoDB.Eliminar((int)id);
+                    TrabajadoresDB trabajadoresDB = new TrabajadoresDB();
+                    trabajadoresDB.Eliminar((int)id);
                     LlenarGrilla();
                 }
             }

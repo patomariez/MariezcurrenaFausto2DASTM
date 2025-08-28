@@ -24,25 +24,25 @@ namespace TPN1_CRUD
 
         private void CargarDatos()
         {
-            TrabajosDB trabajoDB = new TrabajosDB();
-            Trabajo trabajo = trabajoDB.ObtenerId((int)id);
-            txtNombre.Text = trabajo.Nombre;
-            txtProfesion.Text = trabajo.Profesion;
+            TrabajadoresDB trabajadoresDB = new TrabajadoresDB();
+            Trabajador trabajador = trabajadoresDB.ObtenerId((int)id);
+            txtNombre.Text = trabajador.Nombre;
+            txtProfesion.Text = trabajador.Profesion;
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            TrabajosDB trabajoDB = new TrabajosDB();
+            TrabajadoresDB trabajadoresDB = new TrabajadoresDB();
 
             try
             {
                 if (id == null)
                 {
-                    trabajoDB.Agregar(txtNombre.Text, txtProfesion.Text);
+                    trabajadoresDB.Agregar(txtNombre.Text, txtProfesion.Text);
                 }
                 else
                 {
-                    trabajoDB.Editar(txtNombre.Text, txtProfesion.Text, (int)id);
+                    trabajadoresDB.Editar(txtNombre.Text, txtProfesion.Text, (int)id);
                 }
 
                 this.Close();

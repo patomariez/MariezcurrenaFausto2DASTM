@@ -28,22 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dgvTrabajos = new DataGridView();
+            dgvTrabajadores = new DataGridView();
             btnAgregar = new Button();
             btnEditar = new Button();
             btnEliminar = new Button();
-            ((System.ComponentModel.ISupportInitialize)dgvTrabajos).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvTrabajadores).BeginInit();
             SuspendLayout();
             // 
-            // dgvTrabajos
+            // dgvTrabajadores
             // 
-            dgvTrabajos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvTrabajos.Location = new Point(12, 12);
-            dgvTrabajos.Name = "dgvTrabajos";
-            dgvTrabajos.ReadOnly = true;
-            dgvTrabajos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvTrabajos.Size = new Size(448, 286);
-            dgvTrabajos.TabIndex = 0;
+            dgvTrabajadores.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvTrabajadores.Location = new Point(12, 12);
+            dgvTrabajadores.Name = "dgvTrabajadores";
+            dgvTrabajadores.ReadOnly = true;
+            dgvTrabajadores.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvTrabajadores.Size = new Size(448, 286);
+            dgvTrabajadores.TabIndex = 0;
             // 
             // btnAgregar
             // 
@@ -83,17 +83,17 @@
             Controls.Add(btnEliminar);
             Controls.Add(btnEditar);
             Controls.Add(btnAgregar);
-            Controls.Add(dgvTrabajos);
+            Controls.Add(dgvTrabajadores);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Tabla Trabajadores";
             Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)dgvTrabajos).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvTrabajadores).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private DataGridView dgvTrabajos;
+        private DataGridView dgvTrabajadores;
         private Button btnAgregar;
         private Button btnEditar;
         private Button btnEliminar;
