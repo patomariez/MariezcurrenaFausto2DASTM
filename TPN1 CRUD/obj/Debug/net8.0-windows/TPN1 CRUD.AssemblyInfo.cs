@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TPN1 CRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4f510aac5880cfdc052ebcccc08ea34395e8434")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3a64354f02f256934fd497c0f737074593a2a83")]
 [assembly: System.Reflection.AssemblyProductAttribute("TPN1 CRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TPN1 CRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
